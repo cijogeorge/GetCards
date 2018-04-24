@@ -1,3 +1,2 @@
-ml-cards/
-*.DS_Store
-ipynb_checkpoints/
+ml-flashcards/
+settings.py

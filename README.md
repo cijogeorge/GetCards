@@ -1,12 +1,9 @@
-# GetCards
+## ml-flashcards
 
-Data scientist [Chris Albon](https://chrisalbon.com/) has been posting pictures of his machine learning flash cards [on Twitter](https://twitter.com/chrisalbon?lang=en).  Here is how to automatically download them using python.
+Automatically download machine learning flashcards from tweets of [Chris Albon](https://chrisalbon.com/) using python.
 
+### Execution steps
 
-### For OSX/Linux
-In case you do not have the modules used in the notebook nor jupyter installed, simply type 
-* `pip install -r module_list.txt`
- 
-into terminal. Then run the notebook from terminal with
-
-* `jupyter notebook Get\ Flashcards.ipynb`
+- Fill in OAuth information in settings.py to connect to Twitter.
+- Run `python get\_flashcards.py`
+- A directory named 'ml-flashcards' will be created with the downloaded flashcard images.
